@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded on first run (Google MediaPipe models, Apache 2.0)
+hand_landmarker.task
+selfie_segmenter.tflite
+
+# Personal data and things you create while playing
+settings.json
+settings.tmp
+scores.json
+recordings/
+demos/
+mappings/
+sessions/*
+!sessions/demo.gmsession
+songs/*
+!songs/README.md
+
+# Scratch and old working files
+tmp/
+showcase.html
+docs/*.png
+docs/visual-guide-preview.html
+docs/check-visual-guide.cjs
+~$*
